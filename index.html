@@ -113,13 +113,7 @@
   <div class="main-content">
     Making it simple to find your way to us is <br>part of our commitment to your convenience
   </div>
-  <div class="chatbot-icon" id="chatbot-icon" title="Open Chatbot">
-    <!-- Simple chat bubble SVG icon -->
-    <svg viewBox="0 0 40 40">
-      <circle cx="20" cy="20" r="20" fill="#0f62fe"/>
-      <path d="M12 15a8 8 0 1 1 4.7 7.25l-3.94 1.51a1 1 0 0 1-1.28-1.36l1.22-3.16A7.98 7.98 0 0 1 12 15zm8-6a6 6 0 1 0 4.47 10.13c.32-.32.82-.37 1.17-.13l2.1 1.5-1.04-2.71a.96.96 0 0 1 .23-1.06A6 6 0 0 0 20 9z" fill="#fff"/>
-    </svg>
-  </div>
+
   <iframe
     id="watson-chat-iframe"
     src="https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fau-syd.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-8e1a8b22-c201-45fe-b1ab-9c6d9b4bf4b6%3A%3A0a62de0a-9d35-42b0-becc-dd0be0a076b6&integrationID=dcad33b0-894f-40db-b880-46cd9cd503eb&region=au-syd&serviceInstanceID=8e1a8b22-c201-45fe-b1ab-9c6d9b4bf4b6"
@@ -127,7 +121,7 @@
     title="Watson Assistant Chat"
   ></iframe>
   <script>
-window.watsonAssistantChatOptions = {
+  window.watsonAssistantChatOptions = {
     integrationID: "dcad33b0-894f-40db-b880-46cd9cd503eb", // The ID of this integration.
     region: "au-syd", // The region your integration is hosted in.
     serviceInstanceID: "8e1a8b22-c201-45fe-b1ab-9c6d9b4bf4b6", // The ID of your service instance.
@@ -138,8 +132,8 @@ window.watsonAssistantChatOptions = {
     t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
     document.head.appendChild(t);
   });
+
+    
   </script>
 </body>
-
 </html>
-
